@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    // Base
+    "target": "es5",
+    "moduleResolution": "node",
+    "lib": ["dom", "es5", "ScriptHost"],
+    "outDir": "dist",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "allowUmdGlobalAccess": true,
+    "resolveJsonModule": true,
+    "jsx": "react",
+    "strict": true,
+    // Linter Checks
+    "noPropertyAccessFromIndexSignature": true,
+    "noUnusedParameters": true,
+    // Advanced
+    "allowUnreachableCode": true,
+  },
+  "include": ["src"]
+}
